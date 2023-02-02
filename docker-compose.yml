@@ -2,6 +2,7 @@ version: '3'
 services:
   wpp:
     build: .
-    image: wpp:latest
+#image es el nombre que le vamos a dar a la imagen el docker de debian lo saca del Dockerfile
+    image: wpp:slim
     ports:
       - "5000:5000"
